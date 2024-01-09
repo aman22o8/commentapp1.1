@@ -1,0 +1,88 @@
+/* Write your CSS here */
+* {
+  padding: 8px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftSide {
+  margin-left: 15px;
+  margin-right: 35px;
+}
+.main_heading {
+  font: normal normal 700 62px 'Roboto';
+  color: #1e293b;
+}
+.main_para_heading {
+  font: normal normal 400 33px 'Roboto';
+  color: #475569;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+}
+.name_input {
+  height: 60px;
+  border-radius: 5px;
+  /* width: 180px; */
+  background-color: transparent;
+  border: 1px solid #64748b;
+  padding-left: 10px;
+  outline: none;
+  margin: 10px 0px;
+  font: normal normal 25px 'Roboto';
+}
+.comment_input {
+  height: 240px;
+  border-radius: 5px;
+  /* width: 180px; */
+  background-color: transparent;
+  border: 1px solid #64748b;
+  padding-left: 14px;
+  outline: none;
+  margin: 10px 0px;
+  font: normal normal 25px 'Roboto';
+}
+.add_btn {
+  height: 40px;
+  width: 150px;
+  background-color: #0b69ff;
+  color: #dee0e3;
+  font: normal normal 400 20px 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.comment_icon {
+  align-self: flex-end;
+  height: 565px;
+  width: 536px;
+}
+.horizontal_line {
+  border: none;
+  border-top: 4px solid #cbd2d9;
+  margin-left: 35px;
+}
+.footer {
+  margin-left: 35px;
+}
+
+.number_comments {
+  color: #475569;
+  font: normal normal 600 30px 'Roboto';
+}
+.number {
+  background-color: #0b69ff;
+  padding: 8px 18px;
+  color: #ffffff;
+  font: normal normal 600 31px 'Roboto';
+  margin-right: 25px;
+  border-radius: 5px;
+}
+.list_container {
+  list-style-type: none;
+}
